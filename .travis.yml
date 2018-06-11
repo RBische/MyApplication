@@ -20,6 +20,9 @@ android:
     - extra-google-m2repository
     - extra-android-m2repository
     - extra-android-support
+    - gem update --system
+    - gem install fastlane --no-rdoc --no-ri --no-document --quiet
+    - pip install --user awscli
 
 before_install:
         - chmod +x gradlew
